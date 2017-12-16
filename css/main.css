@@ -18,6 +18,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 section {
   background-color: #e5c30a;
 }
@@ -27,7 +31,7 @@ section {
   max-width: 45em;
 }
 
-.section-letter {
+.image-flex, .section-letter {
   float: left;
   width: 50%;
 }
@@ -39,4 +43,5 @@ section {
 
 h2 {
   margin: 0;
+  font-weight: bold;
 }
