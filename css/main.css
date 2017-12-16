@@ -17,3 +17,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+section {
+  background-color: #e5c30a;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 45em;
+}
+
+.section-letter {
+  float: left;
+  width: 50%;
+}
+
+.section-icon {
+  float: right;
+  width: 50%;
+}
+
+h2 {
+  margin: 0;
+}
