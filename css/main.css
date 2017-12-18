@@ -29,22 +29,22 @@ section {
 .wrapper {
   margin: 0 auto;
   max-width: 45em;
+  padding: 1.3rem;
 }
 
 .img-flex img {
   width: 100%;
+  padding-top: 1.3rem;
 }
 
 .section-letter {
   float: left;
   width: 40%;
-  padding-left: 1.3rem;
 }
 
 .section-icon {
   float: right;
   width: 40%;
-  padding-right: 1.3rem;
 
 }
 
