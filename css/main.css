@@ -56,3 +56,28 @@ h2 {
 .section-body p {
   margin: 0;
 }
+
+@media only screen and (min-width: 25em) {
+
+  .img-flex {
+    max-width:41%;
+  }
+}
+
+@media only screen and (min-width: 28em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .img-flex {
+    width: 15%;
+    display: inline-block;
+    padding: 0 .25rem;
+  }
+
+  div .section-body {
+    padding: 0 1.4rem;
+  }
+}
