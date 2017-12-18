@@ -37,18 +37,20 @@ section {
 
 .section-letter {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 .section-icon {
   float: right;
-  width: 50%;
+  width: 40%;
+
 }
 
 h2 {
   margin: 0;
   font-weight: bold;
   padding-left: .8rem;
+
 }
 
 .section-body p {
