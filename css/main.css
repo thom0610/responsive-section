@@ -32,9 +32,9 @@ section {
   padding: 1.3rem;
 }
 
-.img-flex img {
+.img-flex {
+  display: block;
   width: 100%;
-  padding-top: 1.3rem;
 }
 
 .section-letter {
@@ -48,12 +48,12 @@ section {
 
 }
 
-h2 {
+section h2 {
   margin: 0;
   font-weight: bold;
 }
 
-.section-body p {
+section p {
   margin: 0;
 }
 
@@ -97,5 +97,13 @@ h2 {
   .img-flex {
     display: inline-block;
     width: 25%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+
   }
 }
